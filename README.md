@@ -1,33 +1,31 @@
-# WebView2 Samples
+# 墙内直连P站客户端推广版下载[18岁以下不适用]
 
-Welcome to the WebView2Samples repo.  This repo contains several types of samples for [WebView2](https://learn.microsoft.com/microsoft-edge/webview2/):
+## 客户端特性
+- 墙内直连，不需要使用代理服务器
+- 邀请制，需要邀请码才能使用
+- 推广制，鼓励用户通过生成邀请码推广给其它用户并获取使用时间
 
-*  Getting Started tutorial projects - Completed Visual Studio projects that result from following the steps in the [Getting Started tutorials](https://learn.microsoft.com/microsoft-edge/webview2/get-started/get-started).  These are like Hello World basic apps.
+## 软件截图
 
-*  Sample apps - WebView2 sample apps for various frameworks and platforms, as Visual Studio projects.  These samples have menus and demonstrate various APIs.  For more information, see [Sample apps](https://learn.microsoft.com/microsoft-edge/webview2/code-samples-links).
+![PornhubClient snapshot](./media/snapshot.jpg)
 
-*  Deployment samples - Samples that demonstrate deploying the WebView2 Runtime.  For more information, see [Deployment samples](https://learn.microsoft.com/microsoft-edge/webview2/samples/deployment-samples).
+## 常见问题
+- **Q: 系统需求**
+  - A: P站客户端下载(墙国直连版本) (系统要求: win10及以上)
 
+- **Q: 什么是气?**
+  - A: 气是可访问的剩余时长，当气不足时，会自动退出使用状态进入储气状态(隐藏主窗口,转为图标进入工具栏)，进入储气状态后不会消耗气，且会少量增加气。
 
-## Contributing
+- **Q: 如何增加气?**
+  - A: 方法1.每个天然日都会获得一定的气; 
+  -    方法2.主动进入储气状态(在线时，点击菜单"操作"-"进入储气状态" 或 直接点击窗口右上角关闭按钮)，会发现程序缩小为工具栏图标，即已进入储气状态; 
+  -    方法3.介绍朋友使用,每一个使用你的邀请码的客户端在线时都会让你的客户端获得气。
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+- **Q: 增气的方法2和方法3有什么区别?**
+  - A: 不同，方法2效率低，而且会随着剩余气量的量增加而变得更低；方法3效率较高，每个被邀请的客户端在线都可以增加定量的气。
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+- **Q: 为什么下线客户端运行后没有立刻显示出效果?**
+  - A: 根据客户端以及P2P网络情况, 下线客户端的应用有一定延迟(几分钟到十几分钟不等)。
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-
-## Trademarks
-
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft Trademark and Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+- **Q: 程序关闭后气会被归零?**
+  - A: 是的
