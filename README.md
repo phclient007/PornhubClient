@@ -9,6 +9,7 @@
 
 ![PornhubClient snapshot](./media/snapshot.jpg)
 
+## FAQ
 ## 常见问题
 - **Q: 系统需求**
   - A: P站客户端下载(墙国直连版本) (系统要求: win10及以上)
